@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-admin" />
+        <module name="platform-api" />
+        <module name="platform-biz" />
+        <module name="platform-common" />
+        <module name="platform-mp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="platform-admin" target="1.8" />
+      <module name="platform-api" target="1.8" />
+      <module name="platform-biz" target="1.8" />
+      <module name="platform-common" target="1.8" />
+      <module name="platform-mp" target="1.8" />
+      <module name="platform-plus" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
